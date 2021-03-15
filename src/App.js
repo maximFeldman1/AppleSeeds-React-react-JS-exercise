@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+// import Boxes from "./Components/Section3/Boxes/Boxies";
+// import './Components/Section3/Boxes/style.css'
+// import Quiz from './Components/Section3/Quizies/Quiz'
+// import './Components/Section3/Quizies/styleQuiz.css'
+// import Btn from './Components/Section3/Button/Btns'
+// import './Components/Section3/Button/btnstyle.css'
+import Cardies from './Components/Section3/Card/Cards'
+import "./Components/Section3/Card/cardstyle.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <div>
+    //   <Boxes />
+    // </div>
+    // <div>
+    //   <Quiz/>
+    // </div>
+    // <div><Btn/></div>
+    <div><Cardies/></div>
   );
 }
 
