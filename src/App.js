@@ -12,7 +12,15 @@
 // import './Components/Section-6/BoxAnimation/boxstyle.css'
 // import Button from "./Components/Section-7/ParentChild/CustomButton";
 // import Checkbox from './Components/Section-7/CheckBox/Checkbox'
-import Form from "./Components/Section-7/Formreview/Form";
+// import Form from "./Components/Section-7/Formreview/Form";
+
+// import Copy from "./Components/Section-10/Copy";
+// import Focus from "./Components/Section-10/Focus";
+import Products from "./Components/Section-20/React-Router/AllProducts";
+
+// import ChuckNoris from "./Components/Section-8-Api/Chuck_Noris/ChuckNoris";
+
+// import Utility from "./Components/Section-8-Api/Data_massaging/Utility";
 
 function App() {
   return (
@@ -25,8 +33,45 @@ function App() {
     // <div><Animation/></div>
     // <div><Button /></div>
     // <div><Checkbox/></div>
-    <div><Form/></div>
+    // <div><Form/></div>
+    // <div><ChuckNoris /></div>
+    // <div><Utility/></div>
+    // <div><Focus/></div>
+    // <div><Copy/></div>
+    <div><Products/></div>
+
   );
 }
 
-export default App;
+export default App
+// import SearchBar from "./Components/MiniProjectReact/SearchBar";
+// import React, { Component } from "react";
+// import YoutubeApi from "./Components/MiniProjectReact/Apis/YoutubeApi";
+// import VideoList from "./Components/MiniProjectReact/VideoList";
+
+// export default class App extends Component {
+//   state = {
+//     video: [],
+//   };
+//   onTermSubmit = async (term) => {
+//     const response = await YoutubeApi.get("/search", {
+//       params: {
+//         q: term,
+//       },
+//     });
+//     this.setState({
+//       video: response.data.items,
+//     });
+//   };
+
+//   render() {
+//     return (
+//       <div>
+//         <div className="ui container">
+//           <SearchBar onFormSubmit={this.onTermSubmit} />
+//           <VideoList video={this.state.video}/>
+//         </div>
+//       </div>
+//     );
+//   }
+// }
