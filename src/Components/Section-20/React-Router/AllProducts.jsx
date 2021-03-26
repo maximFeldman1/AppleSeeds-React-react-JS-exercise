@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
-import HomePage from "./Homepage";
+import ProductDetail from "./ProductDetail";
 import Product from "./Products";
 import Header from "./Header";
 
@@ -11,9 +11,10 @@ const AllProducts = () => {
     <div>
       <BrowserRouter>
         <div>
-          <Route path="/" exact component={HomePage} />
+          {/* <Route path="/" exact component={HomePage} /> */}
+          <Route path="/products/:id" component={ProductDetail}></Route>
           <Route path="/products" exact component={Product} />
-          <Route path="/Header" exact component={Header} />
+          <Route path="/" exact component={Header} />
         </div>
       </BrowserRouter>
     </div>
