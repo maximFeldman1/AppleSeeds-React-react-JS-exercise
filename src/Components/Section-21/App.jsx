@@ -11,6 +11,7 @@ export default () => {
   return (
     <div>
       <Text items={items} />
+      <ToDo/>
     </div>
   );
 };
