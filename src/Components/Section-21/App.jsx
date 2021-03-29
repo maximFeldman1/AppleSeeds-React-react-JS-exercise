@@ -1,6 +1,8 @@
 import Text from "./React-Hooks/18.1/Text";
 import ToDo from "./React-Hooks/18.2/SimpleToDo";
 import Time from './React-Hooks/18-3/WhatsTheTIme'
+import CheckBox from "./React-Hooks/18-4/MarkingAndDeleting";
+
 import react from "react";
 
 const items = {
@@ -14,6 +16,7 @@ export default () => {
     <div>
       <Text items={items} />
       <ToDo/>
+      <CheckBox/>
     </div>
   );
 };
